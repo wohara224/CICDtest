@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\C#\\CICDtest\\CICDtest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F45FF47D-C1BD-4CE7-9673-069B5950B9B7}|CICDtest\\CICDtest.csproj|c:\\users\\wohara\\documents\\\u7814\u4FEE\\c#\\cicdtest\\cicdtest\\cicdtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F45FF47D-C1BD-4CE7-9673-069B5950B9B7}|CICDtest\\CICDtest.csproj|solutionrelative:cicdtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BA505D0-C574-C017-786D-5952B0315DF7}|CICDtest\\CICDtest.csproj|c:\\users\\wohara\\documents\\\u7814\u4FEE\\c#\\cicdtest\\cicdtest\\cicdtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA505D0-C574-C017-786D-5952B0315DF7}|CICDtest\\CICDtest.csproj|solutionrelative:cicdtest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "CICDtest\\Program.cs",
               "ToolTip": "C:\\Users\\wohara\\Documents\\\u7814\u4FEE\\C#\\CICDtest\\CICDtest\\CICDtest\\Program.cs",
               "RelativeToolTip": "CICDtest\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T01:56:58.228Z",
               "EditorCaption": ""
