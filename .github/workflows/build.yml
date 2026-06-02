@@ -1,0 +1,39 @@
+# ワークフローの名前を指定
+name: Build and Test
+
+# トリガーの設定
+on:
+  push:
+    branches:
+      - main
+
+# ワークフローで実行するジョブの設定
+jobs:
+  # ジョブの名前
+  build:
+    # ジョブを実行するOSの指定
+    runs-on: ubuntu-latest
+
+    # ステップ（＝ジョブの内訳）の設定
+    steps:
+    # ステップの名前
+    - name: Checkout code
+    # 利用するアクション
+      uses: actions/checkout@v4
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0' #環境（.NET 6.0 /8.0等に合わせて変更）
+
+    # C#の依存ライブラリを復元
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # C#のビルド
+    - name: Build C# Application
+      run: dotnet build --no-restore
+
+    # C#のテストの実行
+    - name: Run tests
+      run: dotnet test --no-build --verbosity normal
