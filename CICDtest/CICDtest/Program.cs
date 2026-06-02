@@ -3,6 +3,12 @@
     public static void Main()
     {
         Console.WriteLine("Hello, World!");
-        int x = "This is a test for CICD pipeline.";
+        var p = new Program();
+        string x = p.Test();
+    }
+
+    public string Test()
+    {
+        return "Test";
     }
 }
