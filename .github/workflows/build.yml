@@ -35,5 +35,5 @@ jobs:
       run: dotnet build CICDtest/CICDtest.slnx --no-restore
 
     # C#のテストの実行
-    #- name: Run tests
-    #  run: dotnet test --no-build --verbosity normal
+    - name: Run tests
+      run: dotnet test CICDtest/CICDtest.slnx --no-build --verbosity normal
