@@ -9,6 +9,6 @@
 
     public string Test()
     {
-        return "Test"
+        return "Test";
     }
 }
